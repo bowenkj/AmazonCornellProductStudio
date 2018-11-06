@@ -1,0 +1,14 @@
+{% extends "base_bootstrap.html" %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+    <label class=qrcode-text-btn>
+        <input type=file accept="image/*" capture=environment tabindex=-1>
+    </label>
+{% endblock %}
+
+{% block script %}
+{% endblock %}

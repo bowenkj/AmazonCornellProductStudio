@@ -1,0 +1,31 @@
+{% extends "base_bootstrap.html" %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+    <h1 align="center">QR-code Generator</h1>
+    <form action="{{ url_for('qrcode') }}" method="post" autocomplete="off">
+        <div class="form-group">
+            <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="ID of Product" aria-label="ID of Product" aria-describedby="basic-addon2" name="product-id">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Generate</button>
+            </div>
+        </div>
+        </div>
+    </form>
+    {% if isQR %}
+        <div class="card mx-auto" align="center" style="width: 18rem;">
+          <img src="{{ qrcode(id)  }}">
+          <div class="card-body">
+              <p class="card-text">QR code to access the product with id: {{ id }}</p>
+              <a href="{{ qrcode(id) }}" class="btn btn-primary" download="id:{{ id }}">Download</a>
+          </div>
+        </div>
+    {% endif %}
+{% endblock %}
+
+{% block script %}
+{% endblock %}
