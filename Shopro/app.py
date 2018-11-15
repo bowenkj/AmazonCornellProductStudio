@@ -2,12 +2,13 @@ from flask import Flask
 from flask import render_template, request
 from flask_qrcode import QRcode
 from flask_bootstrap import Bootstrap
-
+from flask_mysqldb import MySQL
 
 
 app = Flask(__name__)
 QRcode(app)
 Bootstrap(app)
+mysql = MySQL(app)
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -18,9 +19,15 @@ def qrcode():
 
 # @app.route('/')
 
+
 @app.route('/qr-reader', methods=['GET'])
 def readqrcode():
     return render_template('read_qrcode.html')
+
+
+@app.route('/test', methods=['GET'])
+def test():
+    return render_template('test.html')
 
 
 if __name__ == '__main__':
