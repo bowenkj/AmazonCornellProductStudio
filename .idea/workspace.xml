@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c55920b3-6ee5-47cf-b346-36ceb95e3e7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/db_handler/create_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/img/qr_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/qr_packed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/alignpat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/bitmat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/bmparser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/datablock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/databr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/datamask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/decoder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/detector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/errorlevel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/findpat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/formatinf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/gf256.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/gf256poly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/qrcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/rsdecoder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/scanner/version.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/templates/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopro/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopro/templates/base_bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/templates/base_bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopro/templates/read_qrcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/templates/read_qrcode.html" afterDir="false" />
-    </list>
+    <list default="true" id="c55920b3-6ee5-47cf-b346-36ceb95e3e7f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,17 +124,6 @@
               <item name="AmazonCornellProductStudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="AmazonCornellProductStudio" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AmazonCornellProductStudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmazonCornellProductStudio" type="462c0819:PsiDirectoryNode" />
-              <item name="Shopro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmazonCornellProductStudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmazonCornellProductStudio" type="462c0819:PsiDirectoryNode" />
-              <item name="Shopro" type="462c0819:PsiDirectoryNode" />
-              <item name="db_handler" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -263,7 +226,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32979977" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979977" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,7 +235,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32979977" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32979977" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32979977" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
