@@ -76,7 +76,7 @@
                 alert("No QR code found. Please make sure the QR code is within the camera's frame and try again.");
               } else {
                 node.parentNode.previousElementSibling.value = res;
-                window.location.replace("../product/" + res.toString());
+                window.location.replace("../product/" + res.toString() + "/" +{{ user_id }});
               }
             };
             qrcode.decode(reader.result);
