@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c55920b3-6ee5-47cf-b346-36ceb95e3e7f" name="Default Changelist" comment="" />
+    <list default="true" id="c55920b3-6ee5-47cf-b346-36ceb95e3e7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Shopro/csv_to_db/Database - Product.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/csv_to_db/products_to_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/csv_to_db/stores_to_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/select_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/css/dashboard/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/css/dashboard/material-dashboard.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/css/kit/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/css/kit/material-kit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/css/kit/vertical-nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/img/dashboard/sidebar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/dashboard/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/dashboard/material-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/dashboard/material-dashboard.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/dashboard/material-dashboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/dashboard/material-kit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/dashboard/material-kit.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/dashboard/material-kit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/kit/bootstrap-selectpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/kit/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/kit/jquery.flexisel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/kit/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/static/js/kit/vertical-nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/templates/base_dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/templates/base_kit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/templates/product_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopro/templates/stores.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shopro/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shopro/templates/base_bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/templates/base_bootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shopro/templates/read_qrcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/templates/read_qrcode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shopro/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/templates/test.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,38 +42,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$getStores.coverage" NAME="getStores Coverage Results" MODIFIED="1542358859571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro/db_handler" />
+    <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$app.coverage" NAME="app Coverage Results" MODIFIED="1542362547648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro" />
+    <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$products_to_db.coverage" NAME="products_to_db Coverage Results" MODIFIED="1542350767930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro/csv_to_db" />
     <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$insert_query.coverage" NAME="insert_query Coverage Results" MODIFIED="1542310092076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro/db_handler" />
     <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$connector.coverage" NAME="connector Coverage Results" MODIFIED="1542308722567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro/db_handler" />
+    <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$stores_to_db.coverage" NAME="stores_to_db Coverage Results" MODIFIED="1542349747544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro/csv_to_db" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1975188495">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="html" value="14" />
+          <entry key="png" value="1" />
+          <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="6" />
+          <entry key="HTML" value="14" />
+          <entry key="Image" value="1" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="5" />
-          <entry key="py" value="249" />
+          <entry key="css" value="2" />
+          <entry key="dummy" value="23" />
+          <entry key="html" value="2437" />
+          <entry key="py" value="2035" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="249" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="2437" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Python" value="2032" />
+          <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -52,25 +99,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shopro/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="525">
+              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
+                <marker date="1542362462480" expanded="true" signature="852:1206" ph="..." />
+                <marker date="1542362462480" expanded="true" signature="1096:1101" ph="..." />
+                <marker date="1542362462480" expanded="true" signature="1096:1206" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopro/model.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Shopro/select_query.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <marker date="1542358934870" expanded="true" signature="188:189" ph="..." />
+                <marker date="1542358934870" expanded="true" signature="277:458" ph="..." />
+                <marker date="1542358934870" expanded="true" signature="370:458" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shopro/templates/base_kit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Shopro/db_handler/create_table.py">
+        <entry file="file://$PROJECT_DIR$/Shopro/templates/product_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="2895">
+              <caret line="193" column="12" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="e#14660#14666#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shopro/templates/stores.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="315" column="154" selection-start-line="315" selection-start-column="115" selection-end-line="315" selection-end-column="154" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shopro/templates/base_dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="73" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -81,8 +171,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>FOOTER</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,11 +187,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Shopro/model.py" />
-        <option value="$PROJECT_DIR$/Shopro/app.py" />
         <option value="$PROJECT_DIR$/Shopro/db_handler.py" />
         <option value="$PROJECT_DIR$/Shopro/db_handler/connector.py" />
         <option value="$PROJECT_DIR$/Shopro/db_handler/insert_query.py" />
         <option value="$PROJECT_DIR$/Shopro/db_handler/create_table.py" />
+        <option value="$PROJECT_DIR$/Shopro/static/css/qr-reader.css.py" />
+        <option value="$PROJECT_DIR$/Shopro/static/css/qr-reader.css" />
+        <option value="$PROJECT_DIR$/Shopro/templates/base_bootstrap.html" />
+        <option value="$PROJECT_DIR$/Shopro/templates/read_qrcode.html" />
+        <option value="$PROJECT_DIR$/Shopro/templates/test.html" />
+        <option value="$PROJECT_DIR$/Shopro/templates/base_dashboard.html" />
+        <option value="$PROJECT_DIR$/Shopro/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/Shopro/db_handler/getStores.py" />
+        <option value="$PROJECT_DIR$/Shopro/db_handler/select_query.py" />
+        <option value="$PROJECT_DIR$/Shopro/csv_to_db/stores_to_db.py" />
+        <option value="$PROJECT_DIR$/Shopro/csv_to_db/products_to_db.py" />
+        <option value="$PROJECT_DIR$/Shopro/templates/products.html" />
+        <option value="$PROJECT_DIR$/Shopro/templates/stores.html" />
+        <option value="$PROJECT_DIR$/Shopro/select_query.py" />
+        <option value="$PROJECT_DIR$/Shopro/templates/base_kit.html" />
+        <option value="$PROJECT_DIR$/Shopro/app.py" />
+        <option value="$PROJECT_DIR$/Shopro/templates/product_detail.html" />
       </list>
     </option>
   </component>
@@ -124,6 +236,53 @@
               <item name="AmazonCornellProductStudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="AmazonCornellProductStudio" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AmazonCornellProductStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazonCornellProductStudio" type="462c0819:PsiDirectoryNode" />
+              <item name="Shopro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazonCornellProductStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazonCornellProductStudio" type="462c0819:PsiDirectoryNode" />
+              <item name="Shopro" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazonCornellProductStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazonCornellProductStudio" type="462c0819:PsiDirectoryNode" />
+              <item name="Shopro" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazonCornellProductStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazonCornellProductStudio" type="462c0819:PsiDirectoryNode" />
+              <item name="Shopro" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="kit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazonCornellProductStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazonCornellProductStudio" type="462c0819:PsiDirectoryNode" />
+              <item name="Shopro" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazonCornellProductStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazonCornellProductStudio" type="462c0819:PsiDirectoryNode" />
+              <item name="Shopro" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="kit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazonCornellProductStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazonCornellProductStudio" type="462c0819:PsiDirectoryNode" />
+              <item name="Shopro" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,11 +290,24 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Shopro/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Shopro/static" />
+      <recent name="$PROJECT_DIR$/Shopro/static/js/kit" />
+      <recent name="$PROJECT_DIR$/Shopro/static/css/kit" />
+      <recent name="$PROJECT_DIR$/Shopro/static/js/dashboard" />
+      <recent name="$PROJECT_DIR$/Shopro/csv_to_db" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,8 +321,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.insert_query">
-    <configuration name="connector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.getStores">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AmazonCornellProductStudio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Shopro" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Shopro/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getStores" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AmazonCornellProductStudio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,7 +357,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Shopro/db_handler/connector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Shopro/select_query.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,14 +388,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="products_to_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AmazonCornellProductStudio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Shopro/csv_to_db" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Shopro/csv_to_db/products_to_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stores_to_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AmazonCornellProductStudio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Shopro/csv_to_db" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Shopro/csv_to_db/stores_to_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.connector" />
       <item itemvalue="Python.insert_query" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.getStores" />
+      <item itemvalue="Python.products_to_db" />
+      <item itemvalue="Python.stores_to_db" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.getStores" />
+        <item itemvalue="Python.products_to_db" />
+        <item itemvalue="Python.stores_to_db" />
         <item itemvalue="Python.insert_query" />
-        <item itemvalue="Python.connector" />
       </list>
     </recent_temporary>
   </component>
@@ -220,13 +464,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="24" width="1632" height="941" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25283018" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553459" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32979977" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32979977" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2638398" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -235,7 +480,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32979977" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32979977" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32979977" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -251,40 +496,136 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Shopro/app.py">
+    <entry file="file://$PROJECT_DIR$/Shopro/db_handler.py" />
+    <entry file="file://$PROJECT_DIR$/Shopro/db_handler/connector.py" />
+    <entry file="file://$PROJECT_DIR$/Shopro/db_handler/insert_table.py" />
+    <entry file="file://$PROJECT_DIR$/Shopro/static/css/qr-reader.css" />
+    <entry file="file://$PROJECT_DIR$/Shopro/templates/create_qrcode.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/static/icons/camera.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/templates/base_bootstrap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shopro/db_handler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopro/db_handler/connector.py">
+    <entry file="file://$PROJECT_DIR$/Shopro/templates/read_qrcode.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="582">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shopro/db_handler/insert_table.py">
+    <entry file="file://$PROJECT_DIR$/Shopro/db_handler/create_table.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state>
+          <caret selection-end-line="11" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shopro/model.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shopro/db_handler/create_table.py">
+    <entry file="file://$PROJECT_DIR$/Shopro/csv_to_db/stores_to_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/csv_to_db/products_to_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/templates/base_dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="73" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/templates/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="147" column="65" selection-start-line="147" selection-start-column="65" selection-end-line="147" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/templates/stores.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="315" column="154" selection-start-line="315" selection-start-column="115" selection-end-line="315" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/select_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <marker date="1542358934870" expanded="true" signature="188:189" ph="..." />
+            <marker date="1542358934870" expanded="true" signature="277:458" ph="..." />
+            <marker date="1542358934870" expanded="true" signature="370:458" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/templates/base_kit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1542362462480" expanded="true" signature="852:1206" ph="..." />
+            <marker date="1542362462480" expanded="true" signature="1096:1101" ph="..." />
+            <marker date="1542362462480" expanded="true" signature="1096:1206" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/templates/product_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2895">
+          <caret line="193" column="12" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#14660#14666#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

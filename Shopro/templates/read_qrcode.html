@@ -7,7 +7,7 @@
             display: inline-block;
             height: 1em;
             width: 1em;
-            background: url({{ url_for('static', filename='img/qr_icon.svg') }}) 50% 50% no-repeat;
+            background: url({{ url_for('static', filename='img/qr_icon.svg') }}) 100% 100% no-repeat;
             cursor: pointer;
         }
 
@@ -34,15 +34,15 @@
 {% endblock %}
 
 {% block content %}
-    <input type=text class=qrcode-text>
-        <label class=qrcode-text-btn>
-            <input type=file
-                   accept="image/*"
-                   capture=environment
-                   onclick="return showQRIntro();"
-                   onchange="openQRCamera(this);"
-                   tabindex=-1>
-        </label>
+    <input type=hidden class=qrcode-text>
+    <label class=qrcode-text-btn>
+        <input type=file
+               accept="image/*"
+               capture=environment
+               onclick="return showQRIntro();"
+               onchange="openQRCamera(this);"
+               tabindex=-1>
+    </label>
 {% endblock %}
 
 {% block script %}
@@ -57,6 +57,7 @@
                 alert("No QR code found. Please make sure the QR code is within the camera's frame and try again.");
               } else {
                 node.parentNode.previousElementSibling.value = res;
+                window.location.replace("../product/" + res.toString());
               }
             };
             qrcode.decode(reader.result);
@@ -67,6 +68,10 @@
         function showQRIntro() {
           return confirm("Use your camera to take a picture of a QR code.");
         }
+
+    </script>
+
+    <script>
 
     </script>
 {% endblock %}
