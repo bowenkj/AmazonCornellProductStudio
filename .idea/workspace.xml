@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c55920b3-6ee5-47cf-b346-36ceb95e3e7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Shopro/insert_query.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/img/YH.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/img/bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/img/bg7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/img/city-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/kit/material-kit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/kit/material-kit.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/static/js/kit/material-kit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/templates/profile_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopro/templates/wishlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shopro/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopro/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/alter_query.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopro/select_query.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/select_query.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopro/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/templates/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopro/templates/read_qrcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/templates/read_qrcode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopro/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shopro/templates/qr-scanner.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +12,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$getStores.coverage" NAME="getStores Coverage Results" MODIFIED="1542384853148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro/db_handler" />
-    <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$app.coverage" NAME="app Coverage Results" MODIFIED="1542397624618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro" />
+    <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$app.coverage" NAME="app Coverage Results" MODIFIED="1542398315396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro" />
     <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$products_to_db.coverage" NAME="products_to_db Coverage Results" MODIFIED="1542350767930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro/csv_to_db" />
     <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$insert_query.coverage" NAME="insert_query Coverage Results" MODIFIED="1542310092076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro/db_handler" />
     <SUITE FILE_PATH="coverage/AmazonCornellProductStudio$connector.coverage" NAME="connector Coverage Results" MODIFIED="1542308722567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Shopro/db_handler" />
@@ -49,14 +31,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="28" />
+          <entry key="html" value="29" />
           <entry key="png" value="1" />
           <entry key="py" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="28" />
+          <entry key="HTML" value="29" />
           <entry key="Image" value="1" />
           <entry key="Python" value="22" />
         </counts>
@@ -66,7 +48,7 @@
           <entry key="css" value="2" />
           <entry key="dummy" value="23" />
           <entry key="html" value="3664" />
-          <entry key="py" value="4313" />
+          <entry key="py" value="4341" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -74,7 +56,7 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="3664" />
           <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="4310" />
+          <entry key="Python" value="4338" />
           <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
@@ -87,110 +69,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Shopro/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+            <state relative-caret-position="282">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <marker date="1542397624613" expanded="true" signature="1252:1339" ph="..." />
-                <marker date="1542397624613" expanded="true" signature="2186:2344" ph="..." />
+                <marker date="1542398201392" expanded="true" signature="1252:1339" ph="..." />
+                <marker date="1542398201392" expanded="true" signature="2169:2327" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopro/templates/qr-scanner.html">
+        <entry file="file://$PROJECT_DIR$/Shopro/templates/stores.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="78" column="75" selection-start-line="78" selection-start-column="75" selection-end-line="78" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopro/templates/wishlist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="24" selection-start-line="24" selection-end-line="32" selection-end-column="12" />
-              <folding>
-                <element signature="e#1009#5900#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopro/templates/profile_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-              <folding>
-                <element signature="e#5977#6041#0#HTML" expanded="true" />
-                <element signature="e#10648#10654#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopro/templates/product_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="172" column="143" selection-start-line="172" selection-start-column="136" selection-end-line="172" selection-end-column="143" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopro/insert_query.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="18" selection-end-column="43" />
-              <folding>
-                <marker date="1542388091997" expanded="true" signature="201:202" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopro/select_query.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <marker date="1542390305622" expanded="true" signature="188:189" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopro/alter_query.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding>
-                <marker date="1542397567093" expanded="true" signature="205:210" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopro/templates/base_dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopro/templates/base_bootstrap.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="4725">
+              <caret line="315" column="154" selection-start-line="315" selection-start-column="115" selection-end-line="315" selection-end-column="154" />
             </state>
           </provider>
         </entry>
@@ -531,13 +425,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shopro/model.py" />
-    <entry file="file://$PROJECT_DIR$/Shopro/templates/stores.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="315" column="154" selection-start-line="315" selection-start-column="115" selection-end-line="315" selection-end-column="154" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shopro/templates/create_qrcode.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -587,13 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopro/templates/base_bootstrap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -662,14 +542,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/templates/base_bootstrap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopro/templates/stores.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4725">
+          <caret line="315" column="154" selection-start-line="315" selection-start-column="115" selection-end-line="315" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Shopro/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="282">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1542397624613" expanded="true" signature="1252:1339" ph="..." />
-            <marker date="1542397624613" expanded="true" signature="2186:2344" ph="..." />
+            <marker date="1542398201392" expanded="true" signature="1252:1339" ph="..." />
+            <marker date="1542398201392" expanded="true" signature="2169:2327" ph="..." />
           </folding>
         </state>
       </provider>

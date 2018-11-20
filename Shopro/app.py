@@ -58,17 +58,17 @@ def showproduct(product_id, user_id=None):
     return render_template('product_detail.html', prod=prod, product_id=product_id, user_id=user_id)
 
 
-@app.route('/product/<int:product_id>/<int:user_id>')
+@app.route('/updateProduct/<int:product_id>/<int:user_id>')
 def updateproduct(product_id, user_id=None):
-    print "Reach here"
     if user_id:
         alter_query.addToWishlist(product_id, user_id)
     prod = select_query.getProductByID(product_id)[0]
     return render_template('product_detail.html', prod=prod, product_id=product_id, user_id=user_id)
 
 
-@app.route('/dashboard')
+@app.route('/dash')
 def dashboard():
+    print "reach here"
     stores = select_query.getAllStores()
     return render_template('stores.html', stores=stores)
 
