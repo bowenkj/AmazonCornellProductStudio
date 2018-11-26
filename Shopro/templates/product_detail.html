@@ -8,42 +8,14 @@
     <link href="{{ url_for('static', filename='css/kit/vertical-nav.css') }}" rel="stylesheet" />
 {% endblock %}
 
-{% block body %}
-    <body class="product-page sidebar-collapse">
-  <nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
-    <div class="container">
-      <div class="navbar-translate">
-        <a class="navbar-brand" href="https://demos.creative-tim.com/material-kit-pro/index.html">
-          SHOPPRO </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-        <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-            <li class="button-container nav-item iframe-extern">
-            <a href="{{ url_for('wishlist', user_id=user_id) }}" target="" class="btn  btn-default   btn-round btn-block">
-              <i class="material-icons">list</i> Wishlist
-            </a>
-          </li>
-          <li class="button-container nav-item iframe-extern">
-            <a href="{{ url_for('user_profile', user_id=user_id) }}" target="" class="btn  btn-default   btn-round btn-block">
-              <i class="material-icons">person</i> Profile
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+{% block bodylabel %}<body class="product-page sidebar-collapse">{% endblock %}
+{% block content %}
   <div class="page-header header-filter" data-parallax="true" filter-color="rose" style="background-image: url('../assets/img/bg6.jpg');">
     <div class="container">
       <div class="row title-row">
-        <div class="col-md-4 ml-auto">
-          <button class="btn btn-white float-right"><i class="material-icons">shopping_cart</i> 0 Items</button>
-        </div>
+{#        <div class="col-md-4 ml-auto">#}
+{#          <button class="btn btn-white float-right"><i class="material-icons">shopping_cart</i> 0 Items</button>#}
+{#        </div>#}
       </div>
     </div>
   </div>
@@ -170,6 +142,12 @@
               </div>
             </div>
             <div class="row pull-right">
+                <div class="col-md-12">
+                    <p>Sizing guidance: {{ size }}</p>
+                </div>
+            </div>
+
+            <div class="row">
                 <a href="{{ url_for('updateproduct', product_id=product_id, user_id=user_id) }}"><button class="btn btn-rose btn-round">Add to Wishlist &#xA0;<i class="material-icons">favorite</i></button></a>
             </div>
           </div>
@@ -208,68 +186,9 @@
       </div>
     </div>
   </div>
-  <footer class="footer">
-    <div class="container">
-      <nav class="float-left">
-        <ul>
-          <li>
-            <a href="https://github.com/bowenkj/AmazonCornellProductStudio">
-              NOZAMA
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/bowenkj/AmazonCornellProductStudio">
-              About Us
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/bowenkj/AmazonCornellProductStudio">
-              Blog
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/bowenkj/AmazonCornellProductStudio">
-              Licenses
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="copyright float-right">
-        &copy;
-        <script>
-          document.write(new Date().getFullYear())
-        </script>, made with <i class="material-icons">favorite</i> by
-        <a href="https://github.com/bowenkj/AmazonCornellProductStudio" target="_blank">NOZAMA</a> for better offline purchase experience.
-      </div>
-    </div>
-  </footer>
-
-</body>
+  {% include 'kit_footer.html' %}
 
     {% block script %}
-                <!--   Core JS Files   -->
-        <script src="{{ url_for('static', filename='js/dashboard/core/jquery.min.js') }}" type="text/javascript"></script>
-        <script src="{{ url_for('static', filename='js/dashboard/core/popper.min.js') }}" type="text/javascript"></script>
-        <script src="{{ url_for('static', filename='js/dashboard/core/bootstrap-material-design.min.js') }}" type="text/javascript"></script>
-        <!-- Plugin for the momentJs  -->
-        <script src="{{ url_for('static', filename='js/dashboard/plugins/moment.min.js') }}"></script>
-        <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
-        <script src="{{ url_for('static', filename='js/kit/bootstrap-selectpicker.js') }}"></script>
-        <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
-        <script src="{{ url_for('static', filename='js/dashboard/plugins/bootstrap-datetimepicker.min.js') }}"></script>
-        <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
-        <script src="{{ url_for('static', filename='js/dashboard/plugins/bootstrap-tagsinput.js') }}"></script>
-        <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
-        <script src="{{ url_for('static', filename='js/dashboard/plugins/jasny-bootstrap.min.js') }}"></script>
-        <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-        <script src="{{ url_for('static', filename='js/dashboard/plugins/nouislider.min.js') }}"></script>
-        <!--  Google Maps Plugin    -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-        <!-- Place this tag in your head or just before your close body tag. -->
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
-        <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-        <script src="{{ url_for('static', filename='js/dashboard/material-kit.js') }}"></script>
-        <script src="{{ url_for('static', filename='js/kit/demo.js') }}"></script>
         <!-- Plugin for Small Gallery in Product Page -->
         <script src="{{ url_for('static', filename='js/kit/jquery.flexisel.js') }}"></script>
         <!-- Plugins for presentation and navigation  -->

@@ -3,7 +3,7 @@ from flask import render_template, request, redirect, url_for
 from flask_qrcode import QRcode
 from flask_bootstrap import Bootstrap
 import select_query, insert_query, alter_query
-# from flask_mysqldb import MySQL
+import random
 
 
 app = Flask(__name__)
@@ -18,7 +18,7 @@ def register():
         username, password = request.form['username'], request.form['password']
         insert_query.addUser(username, password)
         user = select_query.getUser(username, password)
-        return redirect(url_for('user_profile', user_id=user[0][0]))
+        return redirect(url_for('landing', user_id=user[0][0]))
     return render_template('register.html')
 
 
@@ -28,7 +28,7 @@ def login():
     if request.method == 'POST':
         username, password = request.form['username'], request.form['password']
         user = select_query.getUser(username, password)
-        return redirect(url_for('user_profile', user_id=user[0][0]))
+        return redirect(url_for('landing', user_id=user[0][0]))
     return render_template('login.html')
 
 
@@ -54,8 +54,13 @@ def scanqr(user_id):
 
 @app.route('/product/<int:product_id>/<int:user_id>')
 def showproduct(product_id, user_id=None):
+    user_id = int(user_id)
+    user = select_query.getUserByID(user_id)
+    username = user[0][0]
     prod = select_query.getProductByID(product_id)[0]
-    return render_template('product_detail.html', prod=prod, product_id=product_id, user_id=user_id)
+    sizes = ["S", 'M', 'L', 'XL']
+    size = random.choice(sizes)
+    return render_template('product_detail.html', prod=prod, product_id=product_id, user_id=user_id, username=username, size=size)
 
 
 @app.route('/updateProduct/<int:product_id>/<int:user_id>')
@@ -87,6 +92,14 @@ def wishlist(user_id):
         prod = select_query.getProductByID(product_id)[0]
         wishlist.append(prod)
     return render_template('wishlist.html', username=name, wishlist=wishlist, user_id=user_id)
+
+
+@app.route('/landing/<user_id>')
+def landing(user_id):
+    user_id = int(user_id)
+    user = select_query.getUserByID(user_id)
+    username = user[0][0]
+    return render_template('landing_page.html', username=username, user_id=user_id)
 
 
 if __name__ == '__main__':

@@ -22,35 +22,64 @@
 </head>
 
 {% block body %}
-    <body>
+    {% block bodylabel %}<body>{% endblock %}
+
+    {% block nav %}
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light {% block navcolor %}bg-light{% endblock %}">
+  <a class="navbar-brand" href="#">SHOPPRO</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav w-100">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('landing', user_id=user_id) }}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('wishlist', user_id=user_id) }}">Wishlist</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('scanqr', user_id=user_id) }}">Scan Item</a>
+      </li>
+      <li class="nav-item dropdown ml-auto">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {% if username %}
+              {{ username }}
+          {% else %}
+                Unknown
+          {% endif %}
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="{{ url_for('user_profile', user_id=user_id) }}">Profile</a>
+          <a class="dropdown-item" href="{{ url_for('login') }}">Logout</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+    {% endblock %}
 
     {% block content %}{% endblock %}
 
-    {% block script %}
         <!--   Core JS Files   -->
-        <script src="{{ url_for('static', filename='js/dashboard/core/jquery.min.js') }}" type="text/javascript"></script>
-        <script src="{{ url_for('static', filename='js/dashboard/core/popper.min.js') }}" type="text/javascript"></script>
-        <script src="{{ url_for('static', filename='js/dashboard/core/bootstrap-material-design.min.js') }}" type="text/javascript"></script>
-        <!-- Plugin for the momentJs  -->
-        <script src="{{ url_for('static', filename='js/dashboard/plugins/moment.min.js') }}"></script>
-        <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
-        <script src="{{ url_for('static', filename='js/dashboard/plugins/bootstrap-selectpicker.js') }}"></script>
-        <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
-        <script src="{{ url_for('static', filename='js/dashboard/plugins/bootstrap-datetimepicker.min.js') }}"></script>
-        <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
-        <script src="{{ url_for('static', filename='js/dashboard/plugins/bootstrap-tagsinput.js') }}"></script>
-        <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
-        <script src="{{ url_for('static', filename='js/dashboard/plugins/jasny-bootstrap.min.js') }}"></script>
-        <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-        <script src="{{ url_for('static', filename='js/dashboard/plugins/nouislider.min.js') }}"></script>
-        <!--  Google Maps Plugin    -->
+        <script src="{{ url_for('static', filename='js/kit/core/jquery.min.js') }}" type="text/javascript"></script>
+        <script src="{{ url_for('static', filename='js/kit/core/popper.min.js') }}" type="text/javascript"></script>
+        <script src="{{ url_for('static', filename='js/kit/core/bootstrap-material-design.min.js') }}" type="text/javascript"></script>
+        <script src="{{ url_for('static', filename='js/kit/plugins/moment.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/kit/plugins/bootstrap-datetimepicker.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/kit/plugins/nouislider.min.js') }}"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-        <!-- Place this tag in your head or just before your close body tag. -->
+        <script src="{{ url_for('static', filename='js/kit/plugins/bootstrap-tagsinput.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/kit/bootstrap-selectpicker.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/kit/plugins/jasny-bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/kit/plugins/jquery.flexisel.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/kit/demo/modernizr.js') }}" type="text/javascript"></script>
+        <script src="{{ url_for('static', filename='js/kit/demo/vertical-nav.js') }}" type="text/javascript"></script>
         <script async defer src="https://buttons.github.io/buttons.js"></script>
-        <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-        <script src="{{ url_for('static', filename='js/dashboard/material-kit.js') }}"></script>
-        <script src="{{ url_for('static', filename='js/kit/demo.js') }}"></script>
-    {% endblock %}
+        <script src="{{ url_for('static', filename='js/kit/demo/demo.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/kit/material-kit.js') }}"></script>
+
+    {% block script %}{% endblock %}
 
     </body>
 {% endblock %}
